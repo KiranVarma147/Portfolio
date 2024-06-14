@@ -1,0 +1,342 @@
+.menubar {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-color: #040b14;
+    width: 300px;
+}
+
+.aboutnav, .resumenav, .portfolionav, .contactmenav {
+    font-family: 'boxicons', sans-serif;
+    background-color: #040b14;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    width: 70%;
+    margin-top: 23%;
+    margin-right: 25%;
+}
+.aboutnav:hover { background-color: #E1306C; }
+.resumenav:hover { background-color: #2979FF; }
+.portfolionav:hover { background-color: #009688; }
+.contactmenav:hover { background-color: purple; }
+
+.phone{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 1050px;
+    margin-top: -37px;
+}
+
+.maillabel{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 50%;
+    margin-top: -11px;
+    font-weight: bold;
+}
+
+.aboutsection{
+    margin-left: 25%;
+}
+
+.birthdaylabel{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 50% ;
+    margin-top: -300px;
+    font-weight: bold;
+    display: flex;
+}
+
+.birthday{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 840px;
+    margin-top: -37px;
+}
+
+.agelabel{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 50% ;
+    margin-top: -10px;
+    font-weight: bold;
+    display: flex;
+}
+
+.age{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 800px;
+    margin-top: -37px;
+}
+
+.parentslabel{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 65% ;
+    margin-top: -65px;
+    font-weight: bold;
+}
+
+.parents{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 1060px;
+    margin-top: -37px;
+}
+
+.degreelabel{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 65% ;
+    margin-top: -11px;
+    font-weight: bold;
+}
+
+.degree{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 1060px;
+    margin-top: -37px;
+}
+
+.nationalitylabel{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 50% ;
+    margin-top: -11px;
+    font-weight: bold;
+}
+
+.nationality{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 860px;
+    margin-top: -37px;
+}
+
+.phonelabel{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 65% ;
+    margin-top: -38px;
+    font-weight: bold;
+}
+.mail{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 805px;
+    margin-top: -37px;
+}
+
+.locationlabel{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 50%;
+    margin-top: -11px;
+    font-weight: bold
+}
+
+.location{
+    color: black;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-left: 800px;
+    margin-top: -37px;  
+}
+
+.secondintro{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif; 
+    width: 70%; 
+    color: black;
+    margin-left: 370px;
+    margin-top: 100px;
+}
+
+.resume, .portfolio, .contactcontainer{
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+.resumeobjective{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;    
+}
+
+.skillsname{
+    display: inline;
+    margin-right: 10px;
+}
+
+.skill{
+    display: inline;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .btn-download {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-download:hover {
+    background-color: red;
+    border-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .git-btn{
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.git-btn:hover {
+    background-color: #444;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.linkedin-btn {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0077B5;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.linkedin-btn:hover {
+    background-color: #005582;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.inst-btn{
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.inst-btn:hover {
+    background-color: orangered;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.fb-btn{
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.fb-btn:hover {
+    background-color: blue;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form {
+    max-width: 40%;
+    height: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-top: -350px;
+    display: flex;
+    margin-right: 40px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form button:hover {
+    background-color: yellow;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
