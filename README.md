@@ -1,2 +1,2 @@
 # Portfolio
-Using only HTML and CSS
+This Portfolio UI was built only using only HTML and CSS.
